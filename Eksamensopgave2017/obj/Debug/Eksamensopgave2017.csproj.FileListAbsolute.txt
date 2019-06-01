@@ -1,0 +1,6 @@
+C:\Users\cholle18 AAU\Documents\Github\eksamens_opgave_17\Eksamensopgave-i-OOP-2017\Eksamensopgave2017\bin\Debug\Eksamensopgave2017.exe
+C:\Users\cholle18 AAU\Documents\Github\eksamens_opgave_17\Eksamensopgave-i-OOP-2017\Eksamensopgave2017\bin\Debug\Eksamensopgave2017.pdb
+C:\Users\cholle18 AAU\Documents\Github\eksamens_opgave_17\Eksamensopgave-i-OOP-2017\Eksamensopgave2017\obj\Debug\Eksamensopgave2017.csprojAssemblyReference.cache
+C:\Users\cholle18 AAU\Documents\Github\eksamens_opgave_17\Eksamensopgave-i-OOP-2017\Eksamensopgave2017\obj\Debug\Eksamensopgave2017.csproj.CoreCompileInputs.cache
+C:\Users\cholle18 AAU\Documents\Github\eksamens_opgave_17\Eksamensopgave-i-OOP-2017\Eksamensopgave2017\obj\Debug\Eksamensopgave2017.exe
+C:\Users\cholle18 AAU\Documents\Github\eksamens_opgave_17\Eksamensopgave-i-OOP-2017\Eksamensopgave2017\obj\Debug\Eksamensopgave2017.pdb
