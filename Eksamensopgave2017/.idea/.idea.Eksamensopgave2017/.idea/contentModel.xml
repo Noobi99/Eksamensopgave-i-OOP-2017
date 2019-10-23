@@ -6,8 +6,12 @@
     <e p="C:\Users\cholle18 AAU\Documents\Github\eksamens_opgave_17\Eksamensopgave-i-OOP-2017\Eksamensopgave2017" t="IncludeRecursive">
       <e p="bin" t="ExcludeRecursive" />
       <e p="BuySystem.cs" t="Include" />
+      <e p="BuySystemCLI.cs" t="Include" />
+      <e p="BuyTransaction.cs" t="Include" />
+      <e p="Catalog.cs" t="Include" />
       <e p="Eksamensopgave2017.csproj" t="IncludeRecursive" />
       <e p="Eksamensopgave2017.sln" t="IncludeFlat" />
+      <e p="InsertCashTransaction.cs" t="Include" />
       <e p="Logger.cs" t="Include" />
       <e p="MainForm.cs" t="Include" />
       <e p="Notifier.cs" t="Include" />
@@ -20,6 +24,7 @@
       </e>
       <e p="Transaction.cs" t="Include" />
       <e p="User.cs" t="Include" />
+      <e p="UserCatalog.cs" t="Include" />
     </e>
   </component>
 </project>

@@ -46,7 +46,7 @@ namespace Eksamensopgave2017
             {
                 BuyTransaction buyTransaction = new BuyTransaction(user, product.Price);
                 TrackTransaction(buyTransaction);
-                Logger.WriteMessage(buyTransaction.ToString());
+                Logger.WriteMessage(buyTransaction.ToString() + " Product Name & ID: " + product.Name + product.Id);
             }
             catch (InsufficientCreditsException e)
             {
@@ -54,8 +54,8 @@ namespace Eksamensopgave2017
                 return 1;
             }
 
-            // Trigger event
-            if (user.Money < 20)
+            // Trigger event to notify user
+            if (user.Money <= 2000)
             {
                 PushNotification?.Invoke(this, new UserBalanceNotificationArgs(user.Money));
             } 

@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Data.Common;
+using System.IO;
+using System.Linq;
 
 namespace Eksamensopgave2017
 {
@@ -56,41 +58,20 @@ namespace Eksamensopgave2017
             }
             
             */
-            
-            List<User> users = new List<User>()
-            {
-                new User(){Id = 4, Username = "chrisercool", Money = 80f},
-                new User(){Id = 2, Username = "olfa320", Money = 24f},
-                new User(){Id = 5, Username = "bent501"},
-                new User(){Id = 3, Username = "69leethaxor"},
-                new User(){Id = 1, Username = "qwertyqwert"}
-            };
-            
-            List<Product> products = new List<Product>()
-            {
-                new Product("coca cola 1.5L", 20f),
-                new Product("Matilde Kakao", 15),
-                new Product("Twix bar", 7),
-                new Product("Snickers bar", 7),
-            };
-            
+              
             BuySystem buySystem = new BuySystem();
-            Notifier notifier = new Notifier(buySystem);
-            
-            buySystem.BuyProduct(users[0], products[0]);
-            buySystem.BuyProduct(users[1], products[0]);
-            buySystem.BuyProduct(users[0], products[0]);
-            buySystem.BuyProduct(users[1], products[0]);
-            buySystem.BuyProduct(users[3], products[0]);
-            buySystem.BuyProduct(users[4], products[0]);
-            buySystem.BuyProduct(users[2], products[0]);
+            BuySystemCLI buySystemCli = new BuySystemCLI(buySystem);
+            buySystemCli.Start();
 
-            var searchedTransactions = buySystem.GetTransactions(users[0], 10);
+            /*
+              var searchedTransactions = buySystem.GetTransactions(users[0], 10);
+  
+              foreach (var searchedTransaction in searchedTransactions)
+              {
+                  Console.WriteLine(searchedTransaction);
+              }
+              */
 
-            foreach (var searchedTransaction in searchedTransactions)
-            {
-                Console.WriteLine(searchedTransaction);
-            }
 
         }
     }
